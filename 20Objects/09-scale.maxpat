@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 854.0, 96.0, 711.0, 936.0 ],
+		"rect" : [ 848.0, 96.0, 711.0, 936.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 103.0, 171.0, 150.0, 20.0 ],
+					"text" : "low output, high output"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-68",
 					"linecount" : 3,
@@ -440,7 +451,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 443.0, 95.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "move this slider to generate notes for testing"
 				}
 

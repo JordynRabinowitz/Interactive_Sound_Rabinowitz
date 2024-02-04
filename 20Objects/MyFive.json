@@ -1,0 +1,79 @@
+{
+	"pattrstorage" : 	{
+		"name" : "sliders",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slingblade" : [ 69 ],
+					"mypattr" : [ 69 ],
+					"one" : [ 0 ],
+					"two" : [ 41 ],
+					"three" : [ 76 ],
+					"four" : [ 26 ],
+					"five" : [ 51 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slingblade" : [ 69 ],
+					"mypattr" : [ 69 ],
+					"one" : [ 82 ],
+					"two" : [ 41 ],
+					"three" : [ 76 ],
+					"four" : [ 26 ],
+					"five" : [ 51 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slingblade" : [ 69 ],
+					"mypattr" : [ 69 ],
+					"one" : [ 0 ],
+					"two" : [ 41 ],
+					"three" : [ 76 ],
+					"four" : [ 26 ],
+					"five" : [ 51 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"slingblade" : [ 69 ],
+					"mypattr" : [ 69 ],
+					"one" : [ 0 ],
+					"two" : [ 41 ],
+					"three" : [ 76 ],
+					"four" : [ 26 ],
+					"five" : [ 51 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"slingblade" : [ 69 ],
+					"mypattr" : [ 69 ],
+					"one" : [ 0 ],
+					"two" : [ 41 ],
+					"three" : [ 76 ],
+					"four" : [ 26 ],
+					"five" : [ 51 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
