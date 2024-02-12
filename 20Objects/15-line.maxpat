@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 835.0, 96.0, 730.0, 936.0 ],
+		"rect" : [ 829.0, 96.0, 730.0, 936.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,16 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1383.0, 242.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -113,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 371.0, 592.0, 34.0, 22.0 ],
+					"patching_rect" : [ 298.0, 565.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -636,7 +646,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 1091.5, 272.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1084.0, 338.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -660,7 +670,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1040.5, 245.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1019.5, 298.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -800,7 +810,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 786.0, 31.5, 207.0, 255.0 ],
+					"patching_rect" : [ 786.0, 31.5, 210.0, 255.0 ],
 					"text" : "The adsr~ object gives us a complex four-stage envelope; one that produces Attack, Decay, Sustain and Release stages. The controls necessary to create this are:\n\n- Attack time (the time to go from 0.0 to 1.0 at note onset)\n\n- Decay time (the time to go from 1.0 to the sustain level)\n\n- Sustain level (the output level while you are holding a note)\n\n- Release time (the time to go from the sustain level to 0.0 when the note is released)"
 				}
 
@@ -1820,7 +1830,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-95", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -1828,7 +1838,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
