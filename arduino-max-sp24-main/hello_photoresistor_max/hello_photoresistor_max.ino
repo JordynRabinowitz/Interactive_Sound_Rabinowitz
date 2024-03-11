@@ -1,5 +1,7 @@
 //Hello Button Hello Max
 
+//tinkercad:   https://www.tinkercad.com/things/09ECzHrKOb5-copy-of-hello-photoresistor-max
+
 // constants used to set pin numbers (don't change)
 const int ledPin = 13; //define ledPin and pin 13 on arduino
 const int buttonPin = 2;
