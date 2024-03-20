@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1533.0, 956.0 ],
+		"rect" : [ 41.0, 84.0, 1331.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-65",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 863.0, 185.0, 100.0, 50.0 ],
+					"pic" : "C:/Users/jordy/OneDrive/Desktop/Homework saved/InteractiveSoundSP24/Interactive_Sound_Rabinowitz/LIve video sound/tv.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 145.350000381469727, 519.866674602031708, 545.700000762939453, 324.533328592777252 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.250980392156863, 0.254901960784314, 1.0 ],
 					"fontname" : "Century Gothic Bold",
@@ -330,8 +345,8 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : -0.874015748031496,
-									"speed" : 0.551181102362205,
+									"pitchshift" : 1.0,
+									"speed" : 2.0,
 									"loop" : 1
 								}
 
@@ -887,7 +902,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.5, 408.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 258.200000762939453, 508.40000319480896, 320.0, 240.0 ]
+					"presentation_rect" : [ 211.0, 549.40000319480896, 320.0, 240.0 ]
 				}
 
 			}
@@ -989,7 +1004,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"items" : [ "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front" ],
+					"items" : [ "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1091,7 +1106,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 35.5, 408.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 258.200000762939453, 508.40000319480896, 320.0, 240.0 ],
+					"presentation_rect" : [ 211.0, 549.40000319480896, 320.0, 240.0 ],
 					"sync" : 1
 				}
 
@@ -1190,15 +1205,15 @@
 				"box" : 				{
 					"bgcolor" : [ 0.290196078431373, 0.537254901960784, 0.525490196078431, 1.0 ],
 					"id" : "obj-116",
-					"linecount" : 49,
+					"linecount" : 56,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.0, 775.833335757255554, 150.0, 697.0 ],
+					"patching_rect" : [ 53.0, 775.833335757255554, 150.0, 793.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 49,
-					"presentation_rect" : [ 146.39999783039093, 86.400001287460327, 543.600005865097046, 697.0 ],
-					"text" : "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+					"presentation_linecount" : 56,
+					"presentation_rect" : [ 146.39999783039093, 86.400001287460327, 543.600005865097046, 793.0 ],
+					"text" : "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 				}
 
 			}
@@ -1722,8 +1737,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "01PartyInTheU.s.a..mp3",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
+				"bootpath" : "~/OneDrive/Desktop/Homework saved/InteractiveSoundSP24/Interactive_Sound_Rabinowitz/LIve video sound",
+				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -1737,6 +1752,13 @@
 				"name" : "bp.Stereo.maxpat",
 				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Output",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tv.png",
+				"bootpath" : "~/OneDrive/Desktop/Homework saved/InteractiveSoundSP24/Interactive_Sound_Rabinowitz/LIve video sound",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
