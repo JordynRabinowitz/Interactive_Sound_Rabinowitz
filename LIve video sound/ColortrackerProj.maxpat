@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1331.0, 956.0 ],
+		"rect" : [ 34.0, 84.0, 1533.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -345,8 +345,8 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"speed" : 2.0,
+									"pitchshift" : 0.244094488188976,
+									"speed" : 1.275590551181102,
 									"loop" : 1
 								}
 
@@ -367,6 +367,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1088.0, 303.5, 249.0, 135.0 ],
 					"pitchcorrection" : 0,
+					"pitchshiftcent" : [ -2441 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 163.0, 252.0, 135.0 ],
 					"quality" : "basic",
@@ -675,7 +676,7 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 125.0, 694.5, 238.0, 43.0 ],
-					"saturation" : 0.486274509803922
+					"saturation" : 0.349019607843137
 				}
 
 			}
@@ -1004,7 +1005,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"items" : [ "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front" ],
+					"items" : [ "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front", ",", "Surface Camera Front" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1724,11 +1725,6 @@
 			"obj-83::obj-28" : [ "Center", "Center", 0 ],
 			"obj-83::obj-3" : [ "Regen", "Regen", 0 ],
 			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
 
 			}
 ,
