@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.0</Version>
+  <Author>jordy</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="OSC" UID="127.0.0.1" Line="1"/>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: B00114MO)" Line="0">
+     <PluginParameters UniverseChannels="9"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>Kinta FX</Model>
+   <Mode>9 Channel</Mode>
+   <ID>0</ID>
+   <Name>Kinta FX</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="time">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="color">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="3" Type="Sequence" Name="New Sequence 3" BoundScene="2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="4" Type="Scene" Name="1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="program" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="5" Y="10" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="7101"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="7101"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="133">
+     <Channel Fixture="0">0</Channel>
+    </Level>
+    <Playback>
+     <Function>0</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="color" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="160" Y="10" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="613"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="613"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">2</Channel>
+    </Level>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="1" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="235" Y="10" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="613"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>4</Function>
+    </Playback>
+   </Slider>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
