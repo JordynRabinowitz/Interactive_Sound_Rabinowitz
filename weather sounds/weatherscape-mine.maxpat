@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1331.0, 956.0 ],
+		"rect" : [ 34.0, 84.0, 1533.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,15 +55,15 @@
 					"fontname" : "Century",
 					"fontsize" : 18.0,
 					"id" : "obj-59",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 568.5, 950.0, 74.0, 52.0 ],
+					"patching_rect" : [ 568.5, 950.0, 74.0, 73.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 571.066665381193161, 161.5, 267.533337146043777, 30.0 ],
-					"text" : "\"clear sky\""
+					"text" : "\"overcast clouds\""
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 529.0, 880.0, 133.0, 36.0 ],
-					"text" : "weather[0]::description \"clear sky\""
+					"text" : "weather[0]::description \"overcast clouds\""
 				}
 
 			}
@@ -867,7 +867,7 @@
 					"patching_rect" : [ 404.736796021461487, 561.0, 66.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.470127642154694, 161.5, 33.199999511241913, 30.0 ],
-					"text" : "84"
+					"text" : "65"
 				}
 
 			}
@@ -1334,7 +1334,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 394.0, 450.0, 101.0, 22.0 ],
-					"text" : "main::temp 84.34"
+					"text" : "main::temp 65.62"
 				}
 
 			}
@@ -1409,7 +1409,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 113.0, 153.666669756174088, 22.0 ],
-					"text" : "dictionary u027004731"
+					"text" : "dictionary u485000637"
 				}
 
 			}
@@ -1492,6 +1492,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
