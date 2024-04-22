@@ -67,28 +67,7 @@
     <Font>Default</Font>
    </Appearance>
    <Slider Caption="program" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="5" Y="10" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Input Universe="0" Channel="7101"/>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset>
-     <Input Universe="0" Channel="7101"/>
-    </Reset>
-    <Level LowLimit="0" HighLimit="255" Value="133">
-     <Channel Fixture="0">0</Channel>
-    </Level>
-    <Playback>
-     <Function>0</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="color" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="160" Y="10" Width="60" Height="200"/>
+    <WindowState Visible="True" X="25" Y="375" Width="175" Height="140"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -102,14 +81,14 @@
      <Input Universe="0" Channel="613"/>
     </Reset>
     <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="0">2</Channel>
+     <Channel Fixture="0">0</Channel>
     </Level>
     <Playback>
-     <Function>1</Function>
+     <Function>0</Function>
     </Playback>
    </Slider>
-   <Slider Caption="1" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="235" Y="10" Width="60" Height="200"/>
+   <Slider Caption="color" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="240" Y="380" Width="160" Height="130"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -117,11 +96,79 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="613"/>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Input Universe="0" Channel="7101"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="7101"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="223">
+     <Channel Fixture="0">2</Channel>
+    </Level>
     <Playback>
-     <Function>4</Function>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="strobe (slow to fast)" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="420" Y="370" Width="215" Height="155"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="12757"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="12757"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="148">
+     <Channel Fixture="0">4</Channel>
+    </Level>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="laser strobe" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="645" Y="370" Width="215" Height="155"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="10253"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="10253"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">7</Channel>
+    </Level>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="prgrm speed/sensitivity" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="45" Y="535" Width="215" Height="155"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="12757"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="12757"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="148">
+     <Channel Fixture="0">1</Channel>
+    </Level>
+    <Playback>
+     <Function>1</Function>
     </Playback>
    </Slider>
   </Frame>
