@@ -63,7 +63,7 @@
 					"patching_rect" : [ 568.5, 950.0, 74.0, 73.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 571.066665381193161, 161.5, 267.533337146043777, 30.0 ],
-					"text" : "\"overcast clouds\""
+					"text" : "\"scattered clouds\""
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 529.0, 880.0, 133.0, 36.0 ],
-					"text" : "weather[0]::description \"overcast clouds\""
+					"text" : "weather[0]::description \"scattered clouds\""
 				}
 
 			}
@@ -867,7 +867,7 @@
 					"patching_rect" : [ 404.736796021461487, 561.0, 66.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.470127642154694, 161.5, 33.199999511241913, 30.0 ],
-					"text" : "65"
+					"text" : "69"
 				}
 
 			}
@@ -1334,7 +1334,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 394.0, 450.0, 101.0, 22.0 ],
-					"text" : "main::temp 65.62"
+					"text" : "main::temp 69.84"
 				}
 
 			}
@@ -1409,7 +1409,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 113.0, 153.666669756174088, 22.0 ],
-					"text" : "dictionary u485000637"
+					"text" : "dictionary u309001838"
 				}
 
 			}
@@ -1492,8 +1492,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
