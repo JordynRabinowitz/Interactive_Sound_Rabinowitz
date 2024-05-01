@@ -101,7 +101,7 @@
     <Reset>
      <Input Universe="0" Channel="7101"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="255" Value="223">
+    <Level LowLimit="0" HighLimit="255" Value="53">
      <Channel Fixture="0">2</Channel>
     </Level>
     <Playback>
@@ -109,7 +109,7 @@
     </Playback>
    </Slider>
    <Slider Caption="strobe (slow to fast)" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="420" Y="370" Width="215" Height="155"/>
+    <WindowState Visible="True" X="235" Y="530" Width="215" Height="155"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -122,7 +122,7 @@
     <Reset>
      <Input Universe="0" Channel="12757"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="255" Value="148">
+    <Level LowLimit="0" HighLimit="255" Value="193">
      <Channel Fixture="0">4</Channel>
     </Level>
     <Playback>
@@ -130,7 +130,7 @@
     </Playback>
    </Slider>
    <Slider Caption="laser strobe" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="645" Y="370" Width="215" Height="155"/>
+    <WindowState Visible="True" X="10" Y="915" Width="215" Height="155"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -143,7 +143,7 @@
     <Reset>
      <Input Universe="0" Channel="10253"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="137">
      <Channel Fixture="0">7</Channel>
     </Level>
     <Playback>
@@ -151,7 +151,7 @@
     </Playback>
    </Slider>
    <Slider Caption="prgrm speed/sensitivity" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="45" Y="535" Width="215" Height="155"/>
+    <WindowState Visible="True" X="0" Y="530" Width="215" Height="155"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -159,13 +159,34 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="12757"/>
+    <Input Universe="0" Channel="25861"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
     <Reset>
-     <Input Universe="0" Channel="12757"/>
+     <Input Universe="0" Channel="25861"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="255" Value="148">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">1</Channel>
+    </Level>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="strobe patterns" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="435" Y="365" Width="215" Height="155"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="31965"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset>
+     <Input Universe="0" Channel="31965"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">5</Channel>
     </Level>
     <Playback>
      <Function>1</Function>
